@@ -1,7 +1,7 @@
-import streamlit as st
-import pandas as pd
 import pickle
 import numpy as np
+import pandas as pd
+import streamlit as st
 
 df = pd.read_csv("Final_Project.csv")
 pickle_in = open('regression_model.pkl','rb')
